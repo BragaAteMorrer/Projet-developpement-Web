@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Fighter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <audio id="attaque1">
+        <source src="../Projetfinal/Music/attaque1.mp3" type="audio/mpeg">
+        Your browser not support the audio element
+    </audio>
+    <audio id="defense1">
+        <source src="../Projetfinal/Music/defense1.mp3" type="audio/mpeg">
+        Your browser not support the audio element
+    </audio>
+    <audio id="attaque2">
+        <source src="../Projetfinal/Music/attaque2.mp3" type="audio/mpeg">
+        Your browser not support the audio element
+    </audio>
+    <audio id="defense2">
+        <source src="../Projetfinal/Music/defense2.mp3" type="audio/mpeg">
+        Your browser not support the audio element
+    </audio>
+    <audio id="victoire">
+        <source src="../Projetfinal/Music/victoire.mp3" type="audio/mpeg">
+        Your browser not support the audio element
+    </audio>
+    </div>
+    <div id="container">
+        <div id="topRow">
+            <div id="FRAStats" class="stats">
+                <span class="healthLabel">SANTÉ</span><br>
+                <div class="hpBorder">
+                    <progress class="hpBar" id="healthfra" value="100" max="100"></progress> 
+                </div>
+                <div class="defenseprotection">
+                    <img class="shield" id="bouclierfra" src="../Projetfinal/Images/eau.png"> 
+                </div>
+                <p>
+                    <span class="healthLabel">ACTION</span><br>
+                    <button id="damage" class="ButtonAttaque">Attaque</button>
+                </p>
+                <p><button id="defense" class="ButtonDefense">Defense</button>
+                </p>
+            </div>
+            <div id="FRA" class="chars">
+                <img src="../Projetfinal/Images/FRApeterleurschevilles.png">
+            </div>
+            <div id="Vietcong" class="chars">
+                <img src="../Projetfinal/Images/vietcong.png">
+            </div>
+            <div id="VietcongStats" class="stats">
+                    <span class="healthLabel">SANTÉ</span><br>
+                    <div class="hpBorder">
+                    <progress class="hpBar" id="healthviet" value="100" max="100"></progress>
+                    <div class="defenseprotection">
+                        <img class="shield" id="bouclierviet" src="../Projetfinal/Images/tk78.png"> 
+                    </div>
+                    <p>
+                        <span class="healthLabel">ACTION</span><br>
+                        <button id="damageviet" class="ButtonAttaque2">Attaque</button>
+                    </p>
+                    <p><button id="defenseviet" class="ButtonDefense2">Defense</button>
+                    </p>
+                </div>
+                </div>
+            </div>        
+        </div>
+        <div id="bottomRow">
+            <h1>Bienvenue dans Meme Fighter</h1>
+            <p>Votre but: gagner contre votre adversaire !!, commencez le combat en attaquant ou en défendant</p>
+            <button onclick="beginBattle()" class="ButtonStart">Début de la Partie</button>
+        </div>
+    </div>
+<script src="script2.js"></script> 
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Fighter</title>
+</head>
+<body>
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+
+    <input type="button" class="ButtonStart2" value="Jouer la Musique" onclick="play()">
+    <audio id="audio" src="../Projetfinal/Music/intro.ogg"></audio>
+
+    <img class="wololo" src="../Projetfinal/Images/memefighter.png">
+    <button onclick="window.location.href='../Projetfinal/memefighter.html'" id="damageviet" class="ButtonStart">Play</button>
+
+    <style>
+
+    body {
+        background-color: rgb(77, 134, 77);
+    }
+    
+    .wololo {
+        width: 30%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);    
+    }
+
+    .ButtonStart {
+    color: white;
+    background-color: #00b53f00;
+    border: 5px solid;
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+.ButtonStart:hover {
+    color: black;
+    background-color: #005e2100;
+    border: 5px solid;
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 80pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.ButtonStart2 {
+    color: white;
+    background-color: #00b53f00;
+    border: 5px solid;
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+.ButtonStart2:hover {
+    color: black;
+    background-color: #005e2100;
+    border: 5px solid;
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+     @keyframes clignoter {
+       0%   { opacity:1; }
+       40%   {opacity:0; }
+       100% { opacity:1; }
+     }
+     </style>
+</body>
+</html>

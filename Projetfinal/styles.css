@@ -1,0 +1,191 @@
+body {
+    height:205px;
+    width: 100%;
+    width: 100vw;
+    background-position:left top;
+    background-image:url(../Projetfinal/Images/foret.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+#topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#FRA {
+    transition: 1s;
+}
+
+#FRA img {
+    height: 200px;
+    margin-top: 200px;
+}
+
+#Vietcong {
+    transition: 1s;    
+}
+
+#Vietcong img {
+    transform: scaleX(-1);
+    height: 200px;
+    margin-top: 200px;
+}
+
+.chars {
+    margin: 15px 40px;
+}
+.chars {
+    margin: 15px 40px;
+}
+#bottomRow {
+    padding: 20px;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+.stats {
+    width: 350px;
+    height: 400px;
+}
+.healthLabel {
+    font-size:18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+    background: linear-gradient(to right, blue, red);
+    color: whitesmoke;
+}
+.ButtonStart {
+    color: white;
+    background-color: #00b53f;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+    visibility: hidden;
+}
+.ButtonStart:hover {
+    color: black;
+    background-color: #005e21;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.ButtonAttaque {
+    color: white;
+    background-color: red;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.ButtonAttaque:hover {
+    color: rgb(0, 0, 0);
+    background-color: brown;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.ButtonDefense {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.ButtonDefense:hover {
+    color: rgb(0, 0, 0);
+    background-color: darkblue;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.ButtonAttaque2 {
+    color: white;
+    background-color: red;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.ButtonAttaque2:hover {
+    color: rgb(0, 0, 0);
+    background-color: brown;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.ButtonDefense2 {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.ButtonDefense2:hover {
+    color: rgb(0, 0, 0);
+    background-color: darkblue;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.hpBorder {
+    width: 300px;
+    height: 30px;
+    border: 5px solid;
+    border-color: black;
+}
+.hpBar {
+    width: 300px;
+    height: 30px;
+    background-color: green;
+}
+.shield {
+    width: 150px;
+    height: 150px;
+    visibility: hidden;
+}
