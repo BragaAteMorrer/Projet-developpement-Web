@@ -1,0 +1,25 @@
+body {
+  background-image: url(../EvalMagrico/Images/fondgalerie.jpg);
+}
+.grid-container {
+    font-family: Gideons Army;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff00;
+    padding: 0%;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.171);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5%;
+    image-resolution: 100%;
+    font-size: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .galeriebl03 {
+    text-align: center;
+    font-family: Gideons Army;
+    font-size: 210%;
+    color: rgb(255, 0, 0);
+  }

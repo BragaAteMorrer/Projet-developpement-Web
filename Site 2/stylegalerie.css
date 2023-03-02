@@ -1,0 +1,30 @@
+body {
+  background-image: url(../EvalMagrico2/Images/tmcraquage.jpg);
+}
+.grid-container {
+    font-family: Banco;
+    display: grid;
+    background-color: #ffffff00;
+    padding: 0%;
+  }
+  @media screen and (min-width: 769px) {
+    .grid-container {
+      grid-template-columns: auto auto auto;
+    }
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.171);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5%;
+    image-resolution: 100%;
+    font-size: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  .galeriebl03 {
+    text-align: center;
+    font-family: Banco;
+    font-size: 210%;
+    color: #000000;
+    stroke-width: 100px;
+  }
